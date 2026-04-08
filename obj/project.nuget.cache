@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "yELXG0Zxii0=",
+  "success": true,
+  "projectFilePath": "C:\\MM\\VlastniMdNahled\\CustomMdPreview\\CustomMdPreview.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\martin.macko\\.nuget\\packages\\htmlrenderer.core\\1.5.0.5\\htmlrenderer.core.1.5.0.5.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\htmlrenderer.winforms\\1.5.0.6\\htmlrenderer.winforms.1.5.0.6.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\markdig\\0.35.0\\markdig.0.35.0.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\sharpshell\\2.7.2\\sharpshell.2.7.2.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\martin.macko\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
