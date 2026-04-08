@@ -1,4 +1,4 @@
-# Lightweight Markdown Preview for Windows & Outlook
+# Lightweight Markdown Preview for Windows Explorer and Outlook
 
 A simple, lightning-fast, and standalone Preview Handler for `.md` (Markdown) files in Windows File Explorer and Microsoft Outlook.
 
