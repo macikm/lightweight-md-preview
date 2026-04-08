@@ -1,26 +1,31 @@
-# Lightweight Markdown Preview pro Windows a Outlook
+# Lightweight Markdown Preview for Windows & Outlook
 
-Jednoduchý, bleskurychlý a nezávislý prohlížeč (Preview Handler) pro soubory `.md` v Průzkumníkovi Windows a v Microsoft Outlooku.
+A simple, lightning-fast, and standalone Preview Handler for `.md` (Markdown) files in Windows File Explorer and Microsoft Outlook.
 
-Cílem tohoto projektu je vyřešit otravný problém s mizejícími náhledy. Zatímco velké nástroje (jako PowerToys) často selhávají kvůli zamrzajícímu `WebView2` nebo agresivním bezpečnostním pravidlům Outlooku, tento plugin vykresluje HTML čistě, nativně a zcela bez závislosti na zabudovaných prohlížečích (Edge/IE).
+This project was born out of frustration with broken file previews. While heavy tools (like Microsoft PowerToys) often fail to display Markdown previews in Outlook due to crashing `WebView2` dependencies or aggressive COM Surrogate sandboxing, this plugin uses native, independent rendering. 
 
-## Proč použít právě tento plugin?
-* **Nepotřebuje WebView2:** Žádné černé obrazovky nebo nekonečné načítání.
-* **Funguje v Outlooku:** Bezpečnostní sandbox Outlooku (COM Surrogate) jej neblokuje.
-* **Malá velikost:** Žádné zbytečné gigabajty dat na pozadí.
-* **Přehledný design:** Čisté CSS formátování, zvýraznění bloků kódu a tabulek.
+## Why use this plugin?
+* **No WebView2 Required:** Completely bypasses modern Edge/IE rendering engines, eliminating "black screens" and infinite loading issues.
+* **Works natively in Outlook:** Successfully avoids Microsoft Outlook's strict COM Surrogate security blocks.
+* **Extremely Lightweight:** No bloated background processes or gigabytes of cache.
+* **Clean Design:** Simple CSS formatting, properly highlighted code blocks, and structured tables out of the box.
 
-## Jak nainstalovat (Pro běžné uživatele)
-1. Přejděte do sekce [Releases](../../releases) a stáhněte si nejnovější `.zip` soubor.
-2. Soubor rozbalte do složky, kterou už nebudete přesouvat (např. `C:\Nastroje\MarkdownPreview\`).
-3. Klikněte pravým tlačítkem na soubor `_Instalovat.bat` a zvolte **Spustit jako správce**.
-4. Restartujte Outlook (nebo okna Průzkumníka). Náhledy jsou aktivní!
+## How to Install (For regular users)
+1. Go to the [Releases](../../releases) tab and download the latest `.zip` file.
+2. Extract the `.zip` file into a permanent folder on your drive (e.g., `C:\Tools\MarkdownPreview\`).
+3. Right-click the `_Install.bat` file and select **Run as administrator**.
+4. Restart Microsoft Outlook (or close and reopen File Explorer windows). Your `.md` files will now have fully rendered previews!
 
-*(Pro odinstalaci stačí spustit `_Odinstalovat.bat` a následně složku smazat).*
+*(To uninstall, simply run `_Uninstall.bat` as administrator and delete the folder).*
 
-## Pro vývojáře
-Projekt je napsaný v C# (.NET 4.8) s využitím knihoven `SharpShell`, `Markdig` a `HtmlRenderer.WinForms`.
+## For Developers
+This project is written in C# (.NET Framework 4.8) and leverages `SharpShell`, `Markdig`, and `HtmlRenderer.WinForms`.
 
-**Kompilace:**
+**How to build from source:**
 ```bash
+# Clone the repository
+git clone [https://github.com/YourUsername/lightweight-md-preview.git](https://github.com/YourUsername/lightweight-md-preview.git)
+cd lightweight-md-preview
+
+# Build using .NET CLI
 dotnet build -c Release
