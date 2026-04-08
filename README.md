@@ -13,10 +13,10 @@ This project was born out of frustration with broken file previews. While heavy 
 ## How to Install (For regular users)
 1. Go to the [Releases](../../releases) tab and download the latest `.zip` file.
 2. Extract the `.zip` file into a permanent folder on your drive (e.g., `C:\Tools\MarkdownPreview\`).
-3. Right-click the `_Install.bat` file and select **Run as administrator**.
+3. Right-click the `install.bat` file and select **Run as administrator**.
 4. Restart Microsoft Outlook (or close and reopen File Explorer windows). Your `.md` files will now have fully rendered previews!
 
-*(To uninstall, simply run `_Uninstall.bat` as administrator and delete the folder).*
+*(To uninstall, simply run `uninstall.bat` as administrator and delete the folder).*
 
 ## For Developers
 This project is written in C# (.NET Framework 4.8) and leverages `SharpShell`, `Markdig`, and `HtmlRenderer.WinForms`.
