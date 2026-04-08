@@ -29,3 +29,5 @@ cd lightweight-md-preview
 
 # Build using .NET CLI
 dotnet build -c Release
+```
+*(Note: To test your local build, you may need to kill the prevhost.exe process if the .dll is locked by Windows: taskkill /f /im prevhost.exe)*
